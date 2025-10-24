@@ -45,11 +45,6 @@
 
           // Update isi div dengan id data menggunakan tabel
           $('div#data').html(table);
-        },
-
-        // Jika gagal mengambil data
-        error: function() {
-          $('div#data').html('<h3 class="text-danger text-center">Gagal mengambil data dari server.</h3>');
         }
       });
     });
